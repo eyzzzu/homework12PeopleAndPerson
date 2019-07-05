@@ -38,8 +38,8 @@ public class PeopleList {
 
             if (indexBody > 12 && indexBody < 50) {
                 peopleArray[count] = new Person(
-                        firstNameList.get(rnd.nextInt(51)),  // имя
-                        lastNameList.get(rnd.nextInt(51)),   // фамилия
+                        firstNameList.get(rnd.nextInt(51)),  // имя по индексу из списка имен
+                        lastNameList.get(rnd.nextInt(51)),   // фамилия по индексу из списка фамилий
                         rnd.nextInt(80) + 16,           // возраст
                         weight,                                     // вес
                         Math.round(height));                        // рост
