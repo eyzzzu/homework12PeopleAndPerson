@@ -24,11 +24,11 @@ public class Person {
     @Override
     public String toString() {
         return "Person{" +
-                "firstName = '" + firstName + '\'' +
-                ", lastName = '" + lastName + '\'' +
-                ", age = " + age +
-                ", weight = " + weight +
-                ", height = " + height +
+                "имя = '" + firstName + '\'' +
+                ", фамилия = '" + lastName + '\'' +
+                ", возраст = " + age +
+                ", вес = " + weight +
+                ", рост = " + height +
                 '}';
     }
 }
