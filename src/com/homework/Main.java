@@ -16,7 +16,6 @@ public class Main {
 
     public static void main(String[] args) throws FileNotFoundException {
 
-
         PeopleList.readFile();          // считываем имена и фамилии из подготовленного тхт файла
         // и создаем два списка(список имен и фамилий)
 
